@@ -137,7 +137,7 @@ function resultado(primeiro, segundo, terceiro) {
         console.log(filhos)
         
         let Nome = document.createElement("p");
-        Nome.textContent = "Você seria o pedro versão rodrigo faro"
+        Nome.textContent = "Você seria o pedro versão faro"
         Nome.classList.add("nome")
         secao.appendChild(Nome)
         let resultFinal = document.createElement("img");
