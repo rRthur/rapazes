@@ -114,8 +114,9 @@ function resultado(primeiro, segundo, terceiro) {
         secao.appendChild(Nome)
         let resultFinal = document.createElement("img");
         resultFinal.classList.add("fotoResult")
-        resultFinal.src = 'img/deusvillian.jpg';
-        secao.appendChild(resultFinal);        
+        resultFinal.src = "img/deusvillian.jpg";
+        secao.appendChild(resultFinal); 
+        document.getElementById("botao").remove();       
     } else if (segundo > primeiro && segundo > terceiro) {
         let secao = document.getElementById("secao");
         let filhos = secao.children;
